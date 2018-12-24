@@ -3,6 +3,9 @@
 
 <beans>
     <bean id="triangle" class="org.tuwaisu.javabrains.Triangle">
+        <property name="pointA" ref="zeroPoint" />
+        <property name="pointB" ref="firstPoint" />
+        <property name="pointC" ref="secondPoint" />
     </bean>
 
     <bean id="zeroPoint" class="org.tuwaisu.javabrains.Point">

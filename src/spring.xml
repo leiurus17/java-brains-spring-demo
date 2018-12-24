@@ -4,7 +4,7 @@
 <beans>
     <bean id="triangle" class="org.tuwaisu.javabrains.Triangle">
         <!--<property name="type" value="Right" /> -->
-        <constructor-arg value="Equilateral" />
+        <!-- <constructor-arg value="Equilateral" /> -->
         <constructor-arg value="20" />
     </bean>
 </beans>

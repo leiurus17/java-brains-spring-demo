@@ -3,6 +3,7 @@
 
 <beans>
     <bean id="triangle" class="org.tuwaisu.javabrains.Triangle">
-        <property name="type" value="Equiliteral" />
+        <!--<property name="type" value="Right" /> -->
+        <constructor-arg value="Equilateral" />
     </bean>
 </beans>
